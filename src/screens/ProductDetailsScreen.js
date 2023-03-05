@@ -41,6 +41,9 @@ const ProductDetailsScreen = () => {
   <Text style={styles.buttonText}>Add to cart</Text>
 </Pressable>
     {/* nav icon */}
+    <Pressable style={styles.icon}>
+<Ionicons name="close" size={24} color='white' />
+    </Pressable>
     </View>
   );
 };
